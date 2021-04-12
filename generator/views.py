@@ -8,7 +8,7 @@ import random
 import string
 
 
-MIN_CHARS_RANGE = 4
+MIN_LENGTH = 4
 
 # Create your views here.
 def home(request):
@@ -31,7 +31,7 @@ def password(request):
     if request.GET.get('special'):
         chars += string.punctuation
 
-    length = request.GET.get('length', MIN_CHARS_RANGE)
+    length = request.GET.get('length', MIN_LENGTH)
     password = ''
 
     if chars:

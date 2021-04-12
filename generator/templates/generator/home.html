@@ -4,7 +4,7 @@
 <div class="container">
     <h1>Générateur de mot de passe</h1>
 
-    <form action="{% url 'password' %}">
+    <form action="{% url 'generator:password' %}">
         <div class="form"> {{ form.as_p }} </div>
         <input type="submit"  value="Générer mot de passe"/>
     </form>
