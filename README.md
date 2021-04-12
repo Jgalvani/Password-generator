@@ -17,7 +17,7 @@ In root folder:
 ```
 python3 manage.py runserver
 ```
-Then open your browser and go to:
+Then open your web browser and go to:
 ```
 127.0.0.1:8000
 ```
