@@ -1,0 +1,11 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
+
+<div class="container">
+    <h1>Générateur de mot de passe</h1>
+
+    <form action="{% url 'password' %}">
+        <div class="form"> {{ form.as_p }} </div>
+        <input type="submit"  value="Générer mot de passe"/>
+    </form>
+</div>
