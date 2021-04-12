@@ -6,7 +6,7 @@ A password generator web application written in django
 ### Python
 Download and install python3.9 from https://www.python.org/downloads/.
 
-### Virtualen wrapper
+### Virtualenv wrapper
 After python installation, run in your terminal:
 ```
 pip install virtualenv
